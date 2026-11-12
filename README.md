@@ -1,7 +1,10 @@
 # Opyt Bez Opyta
 ### First work. Real experience. A portfolio that grows with every task.
 
-**HRTech / Marketplace / AI** · Built by **Dmitrii Fedorenko**, Founder, CEO & Technical Lead
+**HRTech / Marketplace / AI** · The first product in an international student ecosystem
+
+**Dmitrii Fedorenko** — Founder, CEO & Technical Lead  
+**Sofia Shkop** — Co-founder & COO
 
 Opyt Bez Opyta (Опыт без опыта — “Experience without experience”) is a student–business marketplace in development. Companies post paid, scoped tasks; students build practical experience, income opportunities, ratings and a portfolio of completed work.
 
@@ -13,7 +16,21 @@ Students need experience to get their first job, but often cannot get that exper
 ## The product
 A structured workflow connects a business task to a student deliverable: define the brief and acceptance criteria, review applications, select a student, submit work, request revisions, accept the result and leave a review. Completed tasks become portfolio entries.
 
-The long-term direction is an international student ecosystem. This repository describes the first marketplace product, not the completion of that wider vision.
+## AI and the international ecosystem
+AI is a core product direction: the platform includes integration code for submission review, support assistance and candidate analysis. These features use an external model API and remain subject to configuration, processing approval and quality validation. The marketplace also uses deterministic business rules and skills-based matching.
+
+This marketplace is **stage one of a broader student ecosystem for international markets**. The long-term vision connects work opportunities, skills development and services for local and international students. The current release covers the first marketplace product; the wider ecosystem is on the roadmap.
+
+## Founding team
+| Founder | Role |
+| --- | --- |
+| Dmitrii Fedorenko | Founder, CEO & Technical Lead — software development, infrastructure, product and business leadership |
+| Sofia Shkop | Co-founder & COO — operations and international development |
+
+## International development
+- Passed the first selection stage of a startup program in Dubai.
+- Partnership agreed with **Xi’an Jiaotong-Liverpool University (XJTLU)**, with collaboration planned after establishing the platform in Primorsky Krai.
+
 
 ## My engineering role
 I develop the platform software and manage its technical infrastructure. My work covers the browser interface, backend routes and business rules, database integration, external-service integrations, testing and deployment configuration.
