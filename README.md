@@ -87,7 +87,7 @@ Presence in code does not mean every workflow has passed production acceptance t
 - Subscription checkout requires external end-to-end validation before activation.
 - AI review and assistance require configuration and approval for external data processing. Quality, privacy and cost validation remain open; unavailable or uncertain reviews fall back to manual review.
 - Email code includes retries and delivery-event handling. Live delivery and webhook configuration still require validation.
-- The syntax checks and the first ten test stages passed during the source review. The final local HTTP integration stage failed on a task-application request (expected 201, received 409). The full suite is **not green**; diagnosis and a complete rerun remain open.
+- On 12 November 2026, npm run check and the complete npm test passed locally, including all **186 HTTP integration checks**. A task-application persistence defect was reproduced and corrected; a dedicated regression test now covers rollback on deal/outbox failures, successful retry, duplicate detection and one deal intent per task.
 - A real PostgreSQL staging run and verification of the deployed build remain necessary.
 
 ## Project environment
@@ -96,7 +96,7 @@ Presence in code does not mean every workflow has passed production acceptance t
 This is a testing environment, not a promise of unrestricted public demo access. Access may be restricted; credentials and private user data are never published here.
 
 ## Roadmap
-- [ ] Diagnose the failing application-flow integration test and pass the complete suite.
+- [x] Fix task-application persistence, add failure/retry regression coverage and pass the complete local test suite.
 - [ ] Validate the release against real PostgreSQL in an isolated staging environment.
 - [ ] Complete student and company workflow acceptance testing on mobile and desktop.
 - [ ] Validate transactional email delivery, webhook signatures and retries end to end.
